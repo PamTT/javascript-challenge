@@ -25,7 +25,7 @@ function handleClick(){
     var inputState = d3.select("#state").property("value");
     var inputCountry = d3.select("#country").property("value");
     var inputShape = d3.select("#shape").property("value");
-    console.log(inputShape);
+    
 
     let filteredData = tableData;
     
